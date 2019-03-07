@@ -1,0 +1,61 @@
+
+
+
+        /*
+            1. default values
+            2. custom values
+        */
+
+
+        /* default, global */
+        body {
+            color: black;
+        }
+        a {
+            color: black;
+            text-decoration: underline;
+        }
+        .textAlignCenter {
+            text-align: center;
+        }
+        .width100proc {
+            width: 100%!important;
+        }
+
+        /* custom */
+        h1 {
+            border: 1px solid #fc88f4;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        /* TODO optimize it as much as we can */
+        input[type=text], input[type=password], input[type=email] {
+            width: 90%;
+            padding: 7px;
+        }
+        div.left20 form {
+            /* background-color: aqua; */
+        }
+        a:hover {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* form styles */
+        #formDiv {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 7px;
+            border: 1px solid grey;
+        }
+        .inputContainer {
+            max-width: 100%;
+            padding: 10px 0 15px 0;
+            margin: 0 0 20px 0;
+        }
+        .inputName, .inputValue {
+            width: 150px;
+            float: left;
+        }
